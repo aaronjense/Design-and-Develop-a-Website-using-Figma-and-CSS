@@ -29,34 +29,17 @@ body {
   background-position: center;
 }
 
-/* Menubar */
-#menubar {
-  width: 100%;
-  background-color: white;
-  position: fixed;
-  z-index: 5;
-  top: 0;
-  right: 0;
-  padding: 1%;
-}
-
-#menubar .menu-item {
-  display: inline;
-}
-
-#menubar .menu-item a {
-  padding: 0 2%;
-  text-decoration: none;
-  float: right;
+/* Navigation Bar */
+.navbar .nav-link {
   color: #7a7a7a !important;
 }
 
-#menu-logo .image {
-  width: 80px;
-  height: 40px;
-  background-image: url("images/logo_small.png");
-  display: inline-block;
-  padding: 0 3%;
+.navbar-toggler {
+  border-color: #ff5474 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,84,116, 1.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* Home */
